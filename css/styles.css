@@ -1,0 +1,180 @@
+body {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  background-image: url("../images/lily.png"); /* Ensure this path matches the file location */
+  background-size: cover; /* Adjusts the image to cover the whole page */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  background-position: center; /* Centers the image */
+}
+
+p {
+  color: grey;
+}
+
+h3 {}
+
+/*Title Section*/
+#title {
+  background-color: #84142D;
+  padding: 3% 15% 5%;
+}
+
+.brand-title {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.links {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+}
+
+.nav-list {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  z-index: 100;
+}
+
+.title-quote {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+
+.fab-icon {
+  margin-right: 8px;
+}
+
+.title-image {
+  width: 60%;
+  right: 30%;
+  position: absolute;
+  transform: translateY(-200px);
+}
+
+/*Reasons Section*/
+#reasons {
+  padding: 7% 14%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.fa-icon {
+  color: #84142D;
+  margin: 1rem;
+}
+
+.fa-icon:hover {
+  color: #ef8172;
+}
+
+.reason-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.reason-col {
+  padding: 5%;
+}
+
+/*Poem Section*/
+#poems {
+  background-color: #84142D;
+  padding: 50px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /* Elegant serif font */
+  color: white;
+}
+
+.poem-text {
+  font-size: 1.2em;
+  /* Adjust as needed */
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+.carousel-item {
+  padding: 7% 14%;
+}
+
+/*Song Section*/
+#song {
+  text-align: center;
+  padding: 100px;
+}
+
+.song-heading, .song-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.song-description{
+  color: black;
+}
+
+/*CTA Section*/
+#cta {
+  background-color: #84142D;
+  padding: 7% 14%;
+  text-align: center;
+}
+
+.cta-title {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/*Footer Section*/
+#footer {
+  padding: 7% 14%;
+  text-align: center;
+  background-color: white;
+}
+
+.foot-icon {
+  padding: 20px 10px;
+}
+
+@media (max-width: 1024px) {
+  .title-quote {
+    font-size: 3rem;
+  }
+
+  .title-image {
+    transform: rotate(0);
+  }
+
+  .btn-download {
+    margin-right: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-image {
+    position: relative;
+    left: 100px;
+    width: 60%;
+  }
+}
+
+.column-one {
+  text-align: center;
+}
